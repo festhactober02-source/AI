@@ -9,6 +9,10 @@ class AutoCorrect:
         if word in self.dictionary:
             return word
 sert at the end
+def insert_at_end(self, data):
+        new_node = Node(data)
+        if self.head is None:
+            self.head = new_node
     def insert_at_end(self, data):sert at the end
     def insert_at_end(self, data):sert at the end
     def insert_at_end(self, data):
