@@ -21,14 +21,7 @@ if __name__ == "__main__":
     dictionary = ["hello", "world", "python", "openai", "chatgpt", "code", "programming"]
     
     autocorrect = AutoCorrect(dictionary)
-    if suggestions:
-            return suggestions[0]
-        return word  # if no close match, return original word
 
-# Example usage:
-if __name__ == "__main__":
-    # Example dictionary (you can expand with a real one)
-    dictionary = ["hello", "world", "p
 
 
 
