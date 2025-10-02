@@ -8,6 +8,10 @@ class AutoCorrect:
         # If word is correct, return it
         if word in self.dictionary:
             return word
+sert at the end
+    def insert_at_end(self, data):sert at the end
+    def insert_at_end(self, data):sert at the end
+    def insert_at_end(self, data):
         
         # Find the closest match
         suggestions = difflib.get_close_matches(word, self.dictionary, n=1, cutoff=0.7)
