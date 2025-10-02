@@ -29,22 +29,7 @@ if __name__ == "__main__":
 Output:
 rust
 Copy code
-helo -> hello
-wurld -> world
-pythn -> python
-openi -> openai
-chagpt -> chatgpt
-progamming -> programming
-✅ This is a basic autocorrect.
-🔹 You can improve it by:
-
-Using a large dictionary (like from nltk.corpus.words).
-
-Ranking suggestions by frequency (using a word frequency dataset).
-
-Handling multiple suggestions instead of just one.
-
-Do you want me to make a smarter version (with word frequency and context, like Google-style autocorrect), or keep it lightweight and fast?
+h
 
 
 
