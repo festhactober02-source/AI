@@ -3,7 +3,11 @@ import difflib
 class AutoCorrect:
     def __init__(self, dictionary):
         self.dictionary = set(dictionary)  # store words in a set for fast lookup
-    
+                "linkedlist": """class Node:\n    def __init__(self, data):\n        self.data=data\n        self.next=None"""
+            "linkedlist": """class Node:\n    def __init__(self, data):\n        self.data=data\n        self.next=None"""
+            "linkedlist": """class Node:\n    def __init__(self, data):\n        self.data=data\n        self.next=None"""
+            "linkedlist": """class Node:\n    def __init__(self, data):\n        self.data=data\n        self.next=None"""
+
     def correct(self, word):
         # If word is correct, return it
         if word in self.dictionary:
