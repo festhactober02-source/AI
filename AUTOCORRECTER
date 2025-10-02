@@ -21,14 +21,7 @@ if __name__ == "__main__":
     dictionary = ["hello", "world", "python", "openai", "chatgpt", "code", "programming"]
     
     autocorrect = AutoCorrect(dictionary)
-    # Example dictionary (you can expand with a real one)
-    dictionary = ["hello", "world", "python", "openai", "chatgpt", "code", "programming"]
-    enai", "chatgpt", "code", "programming"]
-    def correct(self, word):
-        # If word is correct, return it
-        if word in self.dictionary:
-    
-    autocorrect = AutoCorrect(dictionary)
+
 
 
 
