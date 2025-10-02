@@ -26,10 +26,7 @@ if __name__ == "__main__":
     
     for w in test_words:
         print(f"{w} -> {autocorrect.correct(w)}")
-Output:
-rust
-Copy code
-h
+
 
 
 
