@@ -22,7 +22,7 @@ if __name__ == "__main__":
     
     autocorrect = AutoCorrect(dictionary)
     
-    test_words = ["helo", "wurld", "pythn", "openi", "chagpt", "progamming"]
+
 
 
 
