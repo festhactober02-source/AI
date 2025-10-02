@@ -1,0 +1,55 @@
+import difflib
+
+class AutoCorrect:
+    def __init__(self, dictionary):
+        self.dictionary = set(dictionary)  # store words in a set for fast lookup
+    
+    def correct(self, word):
+        # If word is correct, return it
+        if word in self.dictionary:
+            return word
+        
+        # Find the closest match
+        suggestions = difflib.get_close_matches(word, self.dictionary, n=1, cutoff=0.7)
+        if suggestions:
+            return suggestions[0]
+        return word  # if no close match, return original word
+
+# Example usage:
+if __name__ == "__main__":
+    # Example dictionary (you can expand with a real one)
+    dictionary = ["hello", "world", "python", "openai", "chatgpt", "code", "programming"]
+    
+    autocorrect = AutoCorrect(dictionary)
+    
+    test_words = ["helo", "wurld", "pythn", "openi", "chagpt", "progamming"]
+    
+    for w in test_words:
+        print(f"{w} -> {autocorrect.correct(w)}")
+Output:
+rust
+Copy code
+helo -> hello
+wurld -> world
+pythn -> python
+openi -> openai
+chagpt -> chatgpt
+progamming -> programming
+✅ This is a basic autocorrect.
+🔹 You can improve it by:
+
+Using a large dictionary (like from nltk.corpus.words).
+
+Ranking suggestions by frequency (using a word frequency dataset).
+
+Handling multiple suggestions instead of just one.
+
+Do you want me to make a smarter version (with word frequency and context, like Google-style autocorrect), or keep it lightweight and fast?
+
+
+
+
+
+
+
+
