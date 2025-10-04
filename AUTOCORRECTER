@@ -8,7 +8,31 @@ class AutoCorrect:
             "linkedlist": """class Node:\n    def __init__(self, data):\n        self.data=data\n        self.next=None"""
             "linkedlist": """class Node:\n    def
     self.head = new_node
- # Insert at the beginning
+ # Insert at the beginningelf.data = data   # store data
+        self.next = None   # pointer to next node
+
+def insert_at_end(self, data):
+        new_node = Node(data)
+        if self.head is None:
+            self.head = new_node
+# Linked List classghhvghnvv
+class LinkedList:elf.data = data   # store data
+        self.next = None   # pointer to next node
+
+def insert_at_end(self, data):
+        new_node = Node(data)
+        if self.head is None:
+            self.head = new_node
+# Linked List classghhvghnvv
+class LinkedList:elf.data = data   # store data
+        self.next = None   # pointer to next node
+
+def insert_at_end(self, data):
+        new_node = Node(data)
+        if self.head is None:
+            self.head = new_node
+# Linked List classghhvghnvv
+class LinkedList:
     def insert_at_beginning(self, data):
         new_node = Node(data)
         new_node.next = self.head
