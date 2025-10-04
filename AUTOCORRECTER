@@ -10,7 +10,17 @@ class AutoCorrect:
     self.head = new_node
  # Insert at the beginningelf.data = data   # store data
         self.next = None   # pointer to next node
+classghhvghnvv
+class LinkedList:
+    def __init__(self):
+        self.head = None
+  if self.head is None:
+elf.data = data   # store data
+        self.next = None   # pointer to next node
 
+def insert_at_end(self, data):
+        new_node = Node(data)
+        if self.head is None:
 def insert_at_end(self, data):
         new_node = Node(data)
         if self.head is None:
